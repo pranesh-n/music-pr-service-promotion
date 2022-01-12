@@ -9,19 +9,10 @@ a {
   text-decoration: none;
 }
 
-.no-webp .header-banner,
+.header-banner,
 .header-banner-bg {
   background-repeat: no-repeat;
-  background-image: url(../images/bg.svg), url(../images/bg.png);
-  height: 950px;
-  width: 100%;
-  position: relative;
-}
-
-.webp .header-banner,
-.header-banner-bg {
-  background-repeat: no-repeat;
-  background-image: url(../images/bg.svg), url(../images/bg.webp);
+  background-image: url(../images/bg.svg);
   height: 950px;
   width: 100%;
   position: relative;
