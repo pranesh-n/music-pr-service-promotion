@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 
-
+.no-webp .header-banner,
 .header-banner-bg {
   background-repeat: no-repeat;
   background-image: url(../images/bg.svg), url(../images/bg.png);
@@ -90,6 +90,15 @@ a {
   width: 40%;
 }
 
+.after-circle {
+  position: absolute;
+  top: 50px;
+  left: -39px;
+  z-index: -1;
+  width: 307px;
+  height: 297px;
+}
+
 .press-release-left h2 {
   font-style: normal;
   font-weight: normal;
@@ -117,6 +126,15 @@ a {
 
 .press-release-right-banner img {
   width: 100%;
+}
+
+.lazy-picture1 {
+  position: absolute;
+  top: 67%;
+  left: -18%;
+  z-index: -1;
+  width: 500px;
+  height: 300px;
 }
 
 .banner-btn {
@@ -310,6 +328,19 @@ section.below-banner p {
   line-height: 43px;
   color: #000000;
   padding: 15px 0;
+}
+
+.see-more-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 25px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 200%;
+  color: #ff5f04;
+  cursor: pointer;
 }
 
 .what-do-we-offer {
@@ -617,6 +648,13 @@ span.package_price {
   height: 571px;
 }
 
+.faq_list_toggle_btn {
+  color: #e91a28;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 0px 10px;
+}
+
 .founder {
   margin: 79px 0 0;
   padding: 0px 0;
@@ -800,6 +838,10 @@ footer {
 }
 
 /* Carousel */
+.carousel {
+  width: 90%;
+  margin: 0px auto;
+}
 
 .slick-slide {
   margin: 10px;
@@ -808,6 +850,11 @@ footer {
 .slick-slide img {
   width: 100%;
   border: 2px solid #fff;
+}
+
+.wrapper .slick-dots li button:before {
+  font-size: 20px;
+  color: white;
 }
 
 .copyright {
@@ -968,6 +1015,10 @@ button.get_start_btn {
     top: 3px;
   }
 
+  .groov-logo {
+    width: 100%;
+  }
+
   .logo {
     margin-left: -20px;
     height: 75px;
@@ -1023,6 +1074,14 @@ button.get_start_btn {
     font-size: 22px;
   }
 
+  .service-para1 {
+    width: 100% !important;
+  }
+
+  .service-para {
+    width: 88%;
+  }
+
   .what-do-we-offer {
     display: block;
     margin: 50px 0;
@@ -1042,9 +1101,17 @@ button.get_start_btn {
     display: none;
   }
 
+  .see-more-btn {
+    display: none;
+  }
+
   .what-do-we-offer-right {
     width: 100%;
     padding-top: 34px;
+  }
+
+  .banner-img {
+    width: 100%;
   }
 
   .what-do-we-offer-left {
@@ -1057,6 +1124,10 @@ button.get_start_btn {
 
   .artist_speaks_slider_one {
     width: 100%;
+  }
+
+  .artist-speak {
+    font-size: 43px;
   }
 
   .lineartist {
@@ -1167,10 +1238,19 @@ button.get_start_btn {
     width: 100%;
   }
 
+  .footer-logo {
+    display: none;
+  }
+
   .footer_add {
     padding-top: 10px;
     display: flex;
     align-items: baseline;
+  }
+
+  .fafa-logo {
+    color: red;
+    padding-top: 6px;
   }
 
   .footer_add p {
@@ -1379,8 +1459,17 @@ button.get_start_btn {
     margin: 0px;
   }
 
+  .logo_g img {
+    width: 100% !important;
+  }
+
   .logo-social-icon {
     width: 100%;
+  }
+
+  .fa-solid,
+  .fas {
+    padding-top: 100px;
   }
 
   .package_price_month {
@@ -1456,6 +1545,10 @@ button.get_start_btn {
     top: 3px;
   }
 
+  .groov-logo {
+    width: 100%;
+  }
+
   .logo {
     margin-left: -20px;
     height: 75px;
@@ -1510,6 +1603,14 @@ button.get_start_btn {
     font-size: 22px;
   }
 
+  .service-para1 {
+    width: 100% !important;
+  }
+
+  .service-para {
+    width: 88%;
+  }
+
   .what-do-we-offer {
     display: block;
     margin: 0px;
@@ -1528,9 +1629,17 @@ button.get_start_btn {
     display: none;
   }
 
+  .see-more-btn {
+    display: none;
+  }
+
   .what-do-we-offer-right {
     width: 100%;
     padding-top: 82%;
+  }
+
+  .banner-img {
+    width: 100%;
   }
 
   .what-do-we-offer-left {
@@ -1543,6 +1652,10 @@ button.get_start_btn {
 
   .artist_speaks_slider_one {
     width: 100%;
+  }
+
+  .artist-speak {
+    font-size: 43px;
   }
 
   .pr-package {
@@ -1649,10 +1762,19 @@ button.get_start_btn {
     width: 100%;
   }
 
+  .footer-logo {
+    display: none;
+  }
+
   .footer_add {
     padding-top: 60px;
     display: flex;
     align-items: baseline;
+  }
+
+  .fafa-logo {
+    color: red;
+    padding-top: 6px;
   }
 
   .footer_add p {
